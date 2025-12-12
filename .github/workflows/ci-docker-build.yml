@@ -6,7 +6,7 @@ on:
       file:
         required: true
         type: string
-        default: '.'
+        default: 'Dockerfile'
 
 jobs:
   build-and-publish:
