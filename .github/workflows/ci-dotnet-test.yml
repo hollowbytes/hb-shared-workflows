@@ -23,7 +23,7 @@ jobs:
         with:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
 
-      - name: Setup dotnet ${{ 10.0.x.dotnet-version }}
+      - name: Setup dotnet ${{ inputs.dotnet-version }}
         uses: actions/setup-dotnet@v4
         with:
           dotnet-version: ${{ inputs.dotnet-version }}
