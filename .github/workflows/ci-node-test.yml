@@ -5,7 +5,6 @@ on:
     secrets:
       SONAR_TOKEN:
         required: true
-        type: string
 
     inputs:
       node-version:
